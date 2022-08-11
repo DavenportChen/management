@@ -93,7 +93,7 @@ public class UserSalaryController {
                 userSalaryService.addUserSalary(userSalary);
                 List<UserInfo> list=userInfoService.SearchALLUserInfo();
                 model.addAttribute("list",list);
-                return "add_user_salary_success";
+                return "add_user_salary_success1";
             }
             else
             {
